@@ -1,6 +1,6 @@
 import React, { memo } from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-import { withFadeAnimation } from './HOC/withFadeAnimation'
+import { withFadeAnimation } from './FADE/withFadeAnimation'
 
 export const NothingFound = memo(({...props}) => {
   const EL = withFadeAnimation(
