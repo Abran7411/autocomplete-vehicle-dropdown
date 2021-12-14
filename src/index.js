@@ -20,7 +20,7 @@ import {
   View,
 } from 'react-native'
 import { moderateScale, ScaledSheet } from 'react-native-size-matters'
-import { withFadeAnimation } from './HOC/withFadeAnimation'
+import { withFadeAnimation } from './FADE/withFadeAnimation'
 import { NothingFound } from './NothingFound'
 import { RightButton } from './RightButton'
 import { ScrollViewListItem } from './ScrollViewListItem'
